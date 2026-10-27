@@ -7,8 +7,9 @@ A responsive, static portfolio website built with HTML, CSS, and JavaScript, rea
 1. Verify your name, experience, skills, project descriptions, and links.
 2. Confirm that `https://github.com/fabriciosantoss/serverRest` is the correct public repository.
 3. Replace the generic experience summaries with verified company names, dates, and achievements.
-4. Add a professional contact email. Do not publish confidential client information or private work samples.
-5. Check all links and preview the site on desktop and mobile.
+4. Add a professional contact email if you want one displayed. The current page leaves it as a placeholder. Do not publish confidential client information or private work samples.
+5. The portfolio currently highlights public repositories: AI-Test-Generator, Rest_Assured_Tests, ServerTestAPI, and serverRest. Verify that their READMEs, setup commands, and tests are interview-ready.
+6. Check all links and preview the site on desktop and mobile.
 
 ## Publish with GitHub Pages
 
