@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Fabricio Santos — Senior QA Engineer and SDET focused on test automation, API quality, and reliable software delivery.">
+  <meta name="theme-color" content="#101827">
+  <title>Fabricio Santos | QA Engineer & SDET</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Fabricio Santos home"><span class="brand-mark">FS</span><span>Fabricio Santos</span></a>
+    <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+    <nav class="nav">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#experience">Experience</a>
+      <a class="nav-cta" href="#contact">Contact ↗</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="status-dot"></span> OPEN TO INTERNATIONAL OPPORTUNITIES</div>
+        <p class="role-label">QUALITY ENGINEER <span>/</span> SDET</p>
+        <h1>Building quality<br>into <span>every release.</span></h1>
+        <p class="hero-description">I help teams ship with confidence by building reliable test automation, strengthening API quality, and making quality part of the development process.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#projects">Explore my work <span>↗</span></a>
+          <a class="button button-secondary" href="#contact">Let's connect</a>
+        </div>
+        <div class="hero-meta"><span>Based in Brazil</span><span class="meta-separator">·</span><span>Remote worldwide</span></div>
+      </div>
+      <div class="hero-visual" aria-label="Decorative automation code illustration">
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <div class="code-window">
+          <div class="window-bar"><span></span><span></span><span></span><small>quality.spec.ts</small></div>
+          <pre><code><i>test</i>(<b>'checkout flow'</b>, <em>async</em> ({ page }) =&gt; {
+  <i>await</i> page.goto(<b>'/checkout'</b>);
+
+  <i>await</i> expect(
+    page.getByRole(<b>'heading'</b>)
+  ).toBeVisible();
+
+  <em>// confidence, by design</em>
+});</code></pre>
+          <div class="code-status"><span class="status-check">✓</span> Test passed <span class="status-time">1.24s</span></div>
+        </div>
+        <div class="floating-tag tag-top">UI + API automation</div>
+        <div class="floating-tag tag-bottom"><span class="pulse"></span> Quality in CI/CD</div>
+      </div>
+    </section>
+
+    <section class="proof-strip">
+      <div><strong>10+</strong><span>Years in QA</span></div>
+      <div><strong>UI · API · Mobile</strong><span>Testing coverage</span></div>
+      <div><strong>Automation</strong><span>Frameworks from scratch</span></div>
+      <div><strong>CI/CD</strong><span>Quality throughout delivery</span></div>
+    </section>
+
+    <section class="section content-section" id="about">
+      <div class="section-heading"><p class="eyebrow">01 / ABOUT</p><h2>Quality is more than<br><span>finding bugs.</span></h2></div>
+      <div class="about-copy">
+        <p class="lead">I'm a QA Engineer with 10+ years of experience helping software teams deliver dependable products.</p>
+        <p>My work spans manual and automated testing across web, API, and mobile applications. I enjoy creating maintainable automation frameworks, improving feedback loops, and collaborating with developers and product teams to identify risk early.</p>
+        <p>I bring a practical, risk-based approach to quality: automate where it creates value, investigate root causes, and keep test suites useful, fast, and trustworthy.</p>
+        <div class="value-tags"><span>Risk-based testing</span><span>Shift-left quality</span><span>Team collaboration</span><span>Continuous improvement</span></div>
+      </div>
+    </section>
+
+    <section class="section skills-section" id="skills">
+      <div class="section-heading"><p class="eyebrow">02 / TOOLKIT</p><h2>Tools I use to build<br><span>confidence.</span></h2></div>
+      <div class="skills-grid">
+        <article class="skill-card"><div class="skill-icon">⌘</div><h3>Web automation</h3><p>Playwright · Cypress · Selenium</p><small>Page Object Model, stable locators, assertions, browser workflows</small></article>
+        <article class="skill-card"><div class="skill-icon">{ }</div><h3>API testing</h3><p>JavaScript · Jest · Supertest · Postman</p><small>Integration testing, test data, response validation, negative scenarios</small></article>
+        <article class="skill-card"><div class="skill-icon">⌁</div><h3>Mobile & performance</h3><p>Appium · k6</p><small>Mobile automation, smoke tests, performance test fundamentals</small></article>
+        <article class="skill-card"><div class="skill-icon">↗</div><h3>Delivery & collaboration</h3><p>CI/CD · Git · Jira · Allure</p><small>Pipeline integration, test reporting, defect triage, quality planning</small></article>
+      </div>
+      <p class="note">Tooling listed here reflects experience across different projects; depth and recency vary by technology.</p>
+    </section>
+
+    <section class="section projects-section" id="projects">
+      <div class="section-heading"><p class="eyebrow">03 / SELECTED WORK</p><h2>Built to solve<br><span>real problems.</span></h2></div>
+      <div class="project-grid">
+        <article class="project-card project-featured">
+          <div class="project-top"><span class="project-type">API AUTOMATION</span><span class="project-number">01</span></div>
+          <h3>REST API Test Framework</h3>
+          <p>A JavaScript-based API automation project focused on repeatable checks, clear assertions, and maintainable test structure.</p>
+          <div class="project-tags"><span>JavaScript</span><span>Jest</span><span>Supertest</span><span>Allure</span></div>
+          <a class="text-link" href="https://github.com/fabriciosantoss/serverRest" target="_blank" rel="noreferrer">View repository <span>↗</span></a>
+        </article>
+        <article class="project-card">
+          <div class="project-top"><span class="project-type">WEB AUTOMATION</span><span class="project-number">02</span></div>
+          <h3>Playwright UI Suite</h3>
+          <p>A maintainable browser automation approach using reusable page objects, reliable locators, and CI-friendly execution.</p>
+          <div class="project-tags"><span>Playwright</span><span>JavaScript</span><span>POM</span></div>
+          <p class="project-disclaimer">Professional experience summary — add a public repository or demo when available.</p>
+        </article>
+        <article class="project-card">
+          <div class="project-top"><span class="project-type">QUALITY ENGINEERING</span><span class="project-number">03</span></div>
+          <h3>QA Process & Test Strategy</h3>
+          <p>Establishing quality workflows, documentation, risk-based test coverage, and practical collaboration between QA, product, and engineering.</p>
+          <div class="project-tags"><span>Test strategy</span><span>Risk analysis</span><span>CI/CD</span></div>
+          <p class="project-disclaimer">Experience-based case study. Keep client names and confidential details private.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section experience-section" id="experience">
+      <div class="section-heading"><p class="eyebrow">04 / EXPERIENCE</p><h2>How I contribute<br><span>to teams.</span></h2></div>
+      <div class="experience-list">
+        <article class="experience-item"><div class="experience-marker"></div><div><div class="experience-heading"><h3>Senior QA / Test Automation Engineer</h3><span>Recent experience</span></div><p>Designed and maintained automation for web and API workflows, integrated reporting, collaborated on release readiness, and supported root-cause analysis.</p></div></article>
+        <article class="experience-item"><div class="experience-marker"></div><div><div class="experience-heading"><h3>QA Engineer — Frameworks & Processes</h3><span>Previous experience</span></div><p>Helped establish QA practices, create test documentation, define test flows, and introduce automation and reporting into delivery processes.</p></div></article>
+        <article class="experience-item"><div class="experience-marker"></div><div><div class="experience-heading"><h3>Manual & Automated Testing</h3><span>Career foundation</span></div><p>Worked across functional, regression, exploratory, smoke, API, web, and mobile testing, partnering with cross-functional teams to reduce delivery risk.</p></div></article>
+      </div>
+      <p class="note">Replace these summary entries with verified company names, dates, and measurable outcomes before publishing your final version.</p>
+    </section>
+
+    <section class="contact-section" id="contact">
+      <div class="section contact-inner">
+        <p class="eyebrow">05 / CONTACT</p>
+        <h2>Let's make quality<br><span>a team advantage.</span></h2>
+        <p>Interested in remote opportunities, quality engineering, or test automation projects? I'd be happy to connect.</p>
+        <div class="contact-actions">
+          <a class="button button-primary" href="https://www.linkedin.com/in/fabricio-santoss/" target="_blank" rel="noreferrer">Connect on LinkedIn ↗</a>
+          <a class="button button-secondary" href="https://github.com/fabriciosantoss" target="_blank" rel="noreferrer">GitHub profile ↗</a>
+        </div>
+        <p class="contact-email">Add your professional email here before publishing.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer"><a class="brand" href="#home"><span class="brand-mark">FS</span><span>Fabricio Santos</span></a><span>Designed for clarity. Built for quality.</span><a href="#home">Back to top ↑</a></footer>
+  <script src="script.js"></script>
+</body>
+</html>
